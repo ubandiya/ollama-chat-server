@@ -11,7 +11,7 @@ from langchain.callbacks.base import BaseCallbackHandler
 import asyncio
 
 # Available Ollama models
-MODELS = ["phi3:latest", "llama3.1:latest", "mistral-nemo:latest",]
+MODELS = ["ml-llama:latest", "llama3.2:latest",]
 TEMPERATURE = 0.0
 
 # Custom callback handler for Gradio streaming
